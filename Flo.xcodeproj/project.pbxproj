@@ -13,6 +13,8 @@
 		F43EB0B11C9603FA002F15F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43EB0B01C9603FA002F15F2 /* Assets.xcassets */; };
 		F43EB0B41C9603FA002F15F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43EB0B21C9603FA002F15F2 /* LaunchScreen.storyboard */; };
 		F43EB0BF1C9603FA002F15F2 /* FloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB0BE1C9603FA002F15F2 /* FloTests.swift */; };
+		F43EB0CB1C961AEA002F15F2 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB0CA1C961AEA002F15F2 /* PushButtonView.swift */; };
+		F43EB0CD1C963099002F15F2 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB0CC1C963099002F15F2 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F43EB0BA1C9603FA002F15F2 /* FloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43EB0BE1C9603FA002F15F2 /* FloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloTests.swift; sourceTree = "<group>"; };
 		F43EB0C01C9603FA002F15F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43EB0CA1C961AEA002F15F2 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		F43EB0CC1C963099002F15F2 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		F43EB0A81C9603FA002F15F2 /* Flo */ = {
 			isa = PBXGroup;
 			children = (
+				F43EB0C91C961AC8002F15F2 /* Views */,
 				F43EB0A91C9603FA002F15F2 /* AppDelegate.swift */,
 				F43EB0AB1C9603FA002F15F2 /* ViewController.swift */,
 				F43EB0AD1C9603FA002F15F2 /* Main.storyboard */,
@@ -94,6 +99,15 @@
 				F43EB0C01C9603FA002F15F2 /* Info.plist */,
 			);
 			path = FloTests;
+			sourceTree = "<group>";
+		};
+		F43EB0C91C961AC8002F15F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F43EB0CA1C961AEA002F15F2 /* PushButtonView.swift */,
+				F43EB0CC1C963099002F15F2 /* CounterView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43EB0AC1C9603FA002F15F2 /* ViewController.swift in Sources */,
+				F43EB0CB1C961AEA002F15F2 /* PushButtonView.swift in Sources */,
 				F43EB0AA1C9603FA002F15F2 /* AppDelegate.swift in Sources */,
+				F43EB0CD1C963099002F15F2 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
