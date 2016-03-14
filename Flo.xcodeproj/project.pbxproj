@@ -15,6 +15,7 @@
 		F43EB0BF1C9603FA002F15F2 /* FloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB0BE1C9603FA002F15F2 /* FloTests.swift */; };
 		F43EB0CB1C961AEA002F15F2 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB0CA1C961AEA002F15F2 /* PushButtonView.swift */; };
 		F43EB0CD1C963099002F15F2 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB0CC1C963099002F15F2 /* CounterView.swift */; };
+		F43EB0CF1C96565B002F15F2 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EB0CE1C96565B002F15F2 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F43EB0C01C9603FA002F15F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43EB0CA1C961AEA002F15F2 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		F43EB0CC1C963099002F15F2 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		F43EB0CE1C96565B002F15F2 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				F43EB0CA1C961AEA002F15F2 /* PushButtonView.swift */,
 				F43EB0CC1C963099002F15F2 /* CounterView.swift */,
+				F43EB0CE1C96565B002F15F2 /* GraphView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43EB0CF1C96565B002F15F2 /* GraphView.swift in Sources */,
 				F43EB0AC1C9603FA002F15F2 /* ViewController.swift in Sources */,
 				F43EB0CB1C961AEA002F15F2 /* PushButtonView.swift in Sources */,
 				F43EB0AA1C9603FA002F15F2 /* AppDelegate.swift in Sources */,
